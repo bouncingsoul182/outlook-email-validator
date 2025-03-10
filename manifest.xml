@@ -29,17 +29,12 @@
 
     <FormSettings>
         <Form xsi:type="ItemRead">
-            <FunctionFile DefaultValue="https://bouncingsoul182.github.io/outlook-email-validator/outlook-email-validator.html"/>
+            <DesktopSettings>
+                <SourceLocation DefaultValue="https://bouncingsoul182.github.io/outlook-email-validator/outlook-email-validator.html"/>
+                <RequestedHeight>250</RequestedHeight>
+            </DesktopSettings>
         </Form>
     </FormSettings>
-
-    <Runtime>
-        <SourceLocation DefaultValue="https://bouncingsoul182.github.io/outlook-email-validator/outlook-email-validator.html"/>
-    </Runtime>
-
-    <DefaultSettings>
-        <SourceLocation DefaultValue="https://bouncingsoul182.github.io/outlook-email-validator/outlook-email-validator.html"/>
-    </DefaultSettings>
 
     <Resources>
         <Images>
@@ -48,6 +43,8 @@
         </Images>
     </Resources>
 </OfficeApp>
+
+
 
 
 

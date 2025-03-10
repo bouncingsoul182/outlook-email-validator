@@ -15,8 +15,7 @@
         <Override Locale="en-US" Value="Checks email domains for validity"/>
     </Description>
 
-    <SupportUrl DefaultValue="https://bouncingsoul182.github.io/outlook-email-validator/"/>
-    <Icon Url="https://bouncingsoul182.github.io/outlook-email-validator/icon.png" Size="64"/>
+    <SupportUrl DefaultValue="https://bouncingsoul182.github.io/outlook-email-validator/support.html"/>
 
     <Permissions>ReadWriteMailbox</Permissions>
 
@@ -39,7 +38,15 @@
     <DefaultSettings>
         <SourceLocation DefaultValue="https://bouncingsoul182.github.io/outlook-email-validator/outlook-email-validator.html"/>
     </DefaultSettings>
+
+    <Resources>
+        <Icons>
+            <Icon Size="64" DefaultValue="https://bouncingsoul182.github.io/outlook-email-validator/icon-64.png"/>
+            <Icon Size="128" DefaultValue="https://bouncingsoul182.github.io/outlook-email-validator/icon-128.png"/>
+        </Icons>
+    </Resources>
 </OfficeApp>
+
 
 
 

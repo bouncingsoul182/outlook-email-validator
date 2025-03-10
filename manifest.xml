@@ -27,7 +27,11 @@
         </Sets>
     </Requirements>
 
-    <Rule xsi:type="ItemIs" ItemType="Message" FormType="Edit"/>
+    <FormSettings>
+        <Form xsi:type="ItemRead">
+            <FunctionFile DefaultValue="https://bouncingsoul182.github.io/outlook-email-validator/outlook-email-validator.html"/>
+        </Form>
+    </FormSettings>
 
     <Runtime>
         <SourceLocation DefaultValue="https://bouncingsoul182.github.io/outlook-email-validator/outlook-email-validator.html"/>
@@ -40,9 +44,11 @@
     <Resources>
         <Images>
             <Image Id="IconUrl" DefaultValue="https://bouncingsoul182.github.io/outlook-email-validator/icon-64.png"/>
+            <Image Id="HighResolutionIconUrl" DefaultValue="https://bouncingsoul182.github.io/outlook-email-validator/icon-128.png"/>
         </Images>
     </Resources>
 </OfficeApp>
+
 
 
 

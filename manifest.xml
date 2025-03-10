@@ -17,8 +17,6 @@
 
     <SupportUrl DefaultValue="https://bouncingsoul182.github.io/outlook-email-validator/support.html"/>
 
-    <Permissions>ReadWriteMailbox</Permissions>
-
     <Hosts>
         <Host Name="Mailbox"/>
     </Hosts>
@@ -40,12 +38,12 @@
     </DefaultSettings>
 
     <Resources>
-        <Icons>
-            <Icon Size="64" DefaultValue="https://bouncingsoul182.github.io/outlook-email-validator/icon-64.png"/>
-            <Icon Size="128" DefaultValue="https://bouncingsoul182.github.io/outlook-email-validator/icon-128.png"/>
-        </Icons>
+        <Images>
+            <Image Id="IconUrl" DefaultValue="https://bouncingsoul182.github.io/outlook-email-validator/icon-64.png"/>
+        </Images>
     </Resources>
 </OfficeApp>
+
 
 
 

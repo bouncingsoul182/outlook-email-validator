@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp
+  xmlns="http://schemas.microsoft.com/office/appforoffices/1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+  xsi:type="MailApp">
+  <Id>12345678-1234-1234-1234-123456789012</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>Your Company</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Email Domain Validator" />
+  <Description DefaultValue="Validates email domains as they are added to a new email." />
+  <IconUrl DefaultValue="https://your-website.com/assets/icon-32.png" />
+  <HighResolutionIconUrl DefaultValue="https://your-website.com/assets/icon-64.png" />
+  <SupportUrl DefaultValue="https://your-website.com/help" />
+  <Hosts>
+    <Host Name="Mailbox" />
+  </Hosts>
+  <Requirements>
+    <Sets>
+      <Set Name="Mailbox" MinVersion="1.1" />
+    </Sets>
+  </Requirements>
+  <FormSettings>
+    <Form xsi:type="ItemEdit">
+      <DesktopSettings>
+        <SourceLocation DefaultValue="https://bouncingsoul182.github.io/outlook-email-validator/home.html" />
+      </DesktopSettings>
+    </Form>
+  </FormSettings>
+  <Permissions>ReadWriteItem</Permissions>
+  <Rule xsi:type="RuleCollection" Mode="Or">
+    <Rule xsi:type="ItemIs" ItemType="Message" FormType="Edit" />
+  </Rule>
+  <DisableEntityHighlighting>false</DisableEntityHighlighting>
+</OfficeApp>
+
+
+
+
+
+
+
+
